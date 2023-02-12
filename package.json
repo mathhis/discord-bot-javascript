@@ -1,0 +1,30 @@
+{
+  "name": "discord-bot-javascript",
+  "version": "1.0.0",
+  "description": "Open source Discord bot written in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathhis/discord-bot-javascript.git"
+  },
+  "author": "Mathis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathhis/discord-bot-javascript/issues"
+  },
+  "homepage": "https://github.com/mathhis/discord-bot-javascript",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "sheweny": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}
