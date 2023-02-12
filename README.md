@@ -24,7 +24,7 @@ Want to support my work? Follow me on Twitter [@maybemathis](https://twitter.com
 Now everything should run smoothly! 🎉
 
 ### Automatic deployment on a platform
-[![Deploy on Railway]()](https://railway.app/)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/S1-JVs?referralCode=mathis)
 
 ## Structures
 
