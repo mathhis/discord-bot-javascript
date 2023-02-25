@@ -1,11 +1,9 @@
 # Discord Bot JavaScript
-**You can use as a template for your bots, you are free to modify it in your own way. The [discord.js](https://discord.js.org/#/) module and the [Sheweny](https://sheweny.js.org/) framework was used to create this small project.**</br>
+**This repository has been archived and will no longer be maintained.**
 
-Want to support my work? Follow me on Twitter [@maybemathis](https://twitter.com/maybemathis)! 😊
+You can use as a template for your bots, you are free to modify it in your own way. The [discord.js](https://discord.js.org/#/) module and the [Sheweny](https://sheweny.js.org/) framework was used to create this small project.</br>
 
-> Problem? An obsolete dependency? A suggestion? Please feel free to open an [issue](https://github.com/mathhis/discord-bot-javascript/issues)!
 ## Changelog
-- [February 12, 2023](https://github.com/mathhis/discord-bot-javascript/blob/main/changelog/feb-12-23.md)
 - [View all changes](https://github.com/mathhis/discord-bot-javascript/tree/main/changelog)
 
 ## Create
