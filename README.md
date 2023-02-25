@@ -29,6 +29,7 @@ Now everything should run smoothly! 🎉
 ### Command
 ```js
 const { Command } = require("sheweny");
+
 module.exports = class ExampleCommand extends Command {
   constructor(client) {
     super(client, {
@@ -38,7 +39,7 @@ module.exports = class ExampleCommand extends Command {
     });
   }
   execute(interaction) {
-    interaction.reply({ content: "This is an example of a Slash command. Learn more about building a command with Sheweny: https://sheweny.js.org/doc/structures/Command.html" });
+    interaction.reply({ content: "This is an example of a Slash command. Learn more about building a command with Sheweny: https://sheweny.js.org/doc/structures/Command.html", ephemeral: true });
   }
 };
 ```
@@ -46,6 +47,7 @@ module.exports = class ExampleCommand extends Command {
 ### Event
 ```js
 const { Event } = require("sheweny");
+
 module.exports = class Ready extends Event {
   constructor(client) {
     super(client, "ready", {
@@ -53,6 +55,7 @@ module.exports = class Ready extends Event {
       once: true,
     });
   }
+
   execute(client) {
     console.log("Connected as " + client.user.tag + "");
   }
