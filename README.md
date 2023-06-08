@@ -2,9 +2,6 @@
 
 You can use as a template for your bots, you are free to modify it in your own way. The [discord.js](https://discord.js.org/#/) module and the [Sheweny](https://sheweny.js.org/) framework was used to create this small project.</br>
 
-## Changelog
-- [View all changes](https://github.com/mathhis/discord-bot-javascript/tree/main/changelog)
-
 ## Create
 
 ### Prerequisites
